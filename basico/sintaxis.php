@@ -20,7 +20,7 @@ echo('<p>Tampoco se imprimió el comentario multilínea</p>');
 <h2>HTML estático sin PHP<h2>
 <a href="http://google.com">Con un link estático a Google</a>
 <p>
-  <?=5+5   // que es lo mismo que un print(5+5); pero más rápido?>
+  <?=5+5;?>
 </p>
 
 <?php
@@ -32,3 +32,5 @@ echo("<h3>En la variable anterior no importan espacios ni saltos de línea, func
 # Aquí genera un error, pero como es interpretado línea a línea todo lo anterior sí lo hace
 echo(no_existe_esto());
 # Ya no cerramos el tag de PHP porque termina el doc
+
+echo 'HOLA al final';
