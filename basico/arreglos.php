@@ -34,6 +34,8 @@ print '<pre>';
 var_dump($arreglo);
 print '</pre>';
 
+print "<p></p>";
+
 # Arreglos con índice numérico
 
 $arreglo_indice = array();
